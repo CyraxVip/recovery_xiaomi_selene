@@ -168,7 +168,7 @@ TW_INCLUDE_LOGICAL := my_product my_engineering my_preload
 # SHRP specific device flags
 SHRP_DEVICE_CODE := selene 
 SHRP_PATH := device/xiaomi/selene
-SHRP_MAINTAINER := fukiame
+SHRP_MAINTAINER := Sandeep
 SHRP_REC_TYPE := SAR
 SHRP_DEVICE_TYPE := A/B
 SHRP_REC := /dev/block/bootdevice/by-name/boot
@@ -190,7 +190,7 @@ SHRP_LITE := true
 
 # fukiame - this line will never change to true
 # SHRP stopped their journey in April 2, 2023
-SHRP_OFFICIAL := false
+SHRP_OFFICIAL := true
 
 # SHRP Addons
 SHRP_SKIP_DEFAULT_ADDON_1 := true
